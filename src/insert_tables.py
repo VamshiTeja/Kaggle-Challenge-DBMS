@@ -2,7 +2,7 @@
 # @Author: vamshi
 # @Date:   2018-04-14 11:07:32
 # @Last Modified by:   vamshi
-# @Last Modified time: 2018-04-14 12:41:23
+# @Last Modified time: 2018-04-15 12:55:32
 
 import sys
 import os
@@ -37,6 +37,7 @@ def create_tables():
     				"""COPY Gender FROM '/home/vamshi/BTECH/SEM 6/DBMS II/Kaggle/kaggle_dbms/data/gender.csv' DELIMITER '\t' CSV HEADER""")
 
     conn = None
+    
     try:
         # read the connection parameters
         params = config()
